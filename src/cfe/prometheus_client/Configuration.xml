@@ -30,6 +30,14 @@
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
 				<xr:ObjectId>b14122b9-a0ea-4f41-b226-2c19cca13406</xr:ObjectId>
 			</xr:ContainedObject>
+			<xr:PropertyState>
+				<xr:Property>ManagedApplicationModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+			<xr:PropertyState>
+				<xr:Property>SessionModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
 		</InternalInfo>
 		<Properties>
 			<ObjectBelonging>Adopted</ObjectBelonging>
@@ -43,7 +51,7 @@
 			<Comment/>
 			<ConfigurationExtensionPurpose>AddOn</ConfigurationExtensionPurpose>
 			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
-			<NamePrefix>pmi_</NamePrefix>
+			<NamePrefix>Prometheus</NamePrefix>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_26</ConfigurationExtensionCompatibilityMode>
 			<DefaultRunMode>ManagedApplication</DefaultRunMode>
 			<UsePurposes>
@@ -51,7 +59,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles>
-				<xr:Item xsi:type="xr:MDObjectRef">Role.pmi_ОсновнаяРоль</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.PrometheusОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
 			<Version/>
@@ -79,7 +87,17 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Role>pmi_ОсновнаяРоль</Role>
+			<Subsystem>PrometheusКлиент</Subsystem>
+			<Role>PrometheusОсновнаяРоль</Role>
+			<CommonModule>PrometheusCollectorRegistry</CommonModule>
+			<CommonModule>PrometheusMetrics</CommonModule>
+			<CommonModule>PrometheusVec</CommonModule>
+			<CommonModule>PrometheusTextFormat</CommonModule>
+			<CommonModule>PrometheusRegistry</CommonModule>
+			<CommonModule>PrometheusFacade</CommonModule>
+			<CommonModule>PrometheusRegistryStorage</CommonModule>
+			<HTTPService>PrometheusMetricsEndpoint</HTTPService>
+			<Catalog>PrometheusХранилище</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
