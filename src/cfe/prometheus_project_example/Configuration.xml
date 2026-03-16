@@ -33,17 +33,17 @@
 		</InternalInfo>
 		<Properties>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<Name>prometheus_ИнтеграцияПроектный</Name>
+			<Name>prometheus_project_example</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Prometheus. Интеграция проектный</v8:content>
+					<v8:content>Prometheus (Проект пример)</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<ConfigurationExtensionPurpose>AddOn</ConfigurationExtensionPurpose>
 			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
-			<NamePrefix>PrometheusПроект</NamePrefix>
+			<NamePrefix>PrometheusПроект_</NamePrefix>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_26</ConfigurationExtensionCompatibilityMode>
 			<DefaultRunMode>ManagedApplication</DefaultRunMode>
 			<UsePurposes>
@@ -51,23 +51,48 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles>
-				<xr:Item xsi:type="xr:MDObjectRef">Role.PrometheusПроектОсновнаяРоль</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.PrometheusПроект_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
-			<Vendor/>
-			<Version/>
+			<Vendor>Ivan Karlo</Vendor>
+			<Version>1.0.0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
-			<BriefInformation/>
-			<DetailedInformation/>
-			<Copyright/>
-			<VendorInformationAddress/>
-			<ConfigurationInformationAddress/>
+			<BriefInformation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проектное расширение для демонстрации и настройки интеграции конфигурации с Prometheus.</v8:content>
+				</v8:item>
+			</BriefInformation>
+			<DetailedInformation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расширение содержит примеры и заготовки интеграции: регистрация прикладных метрик, использование PrometheusFacade в бизнес‑коде и базовую настройку HTTP‑сервиса /metrics как шаблон для внедрения мониторинга в проекты.</v8:content>
+				</v8:item>
+			</DetailedInformation>
+			<Copyright>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ivan Karlo</v8:content>
+				</v8:item>
+			</Copyright>
+			<VendorInformationAddress>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>https://github.com/yellow-hammer</v8:content>
+				</v8:item>
+			</VendorInformationAddress>
+			<ConfigurationInformationAddress>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>https://github.com/yellow-hammer/prometheus-e1c</v8:content>
+				</v8:item>
+			</ConfigurationInformationAddress>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Subsystem>PrometheusПроектТесты</Subsystem>
-			<Role>PrometheusПроектОсновнаяРоль</Role>
-			<CommonModule>PrometheusПроектТестМетрикХелпер</CommonModule>
-			<DataProcessor>PrometheusПроектТестМетрик</DataProcessor>
+			<Subsystem>PrometheusПроект_Тест</Subsystem>
+			<Role>PrometheusПроект_ОсновнаяРоль</Role>
+			<CommonModule>PrometheusПроект_ТестМетрикХелпер</CommonModule>
+			<DataProcessor>PrometheusПроект_ТестМетрик</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

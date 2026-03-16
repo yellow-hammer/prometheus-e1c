@@ -61,11 +61,21 @@
 			<DefaultRoles>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.PrometheusОсновнаяРоль</xr:Item>
 			</DefaultRoles>
-			<Vendor/>
-			<Version/>
+			<Vendor>Ivan Karlo</Vendor>
+			<Version>1.0.0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
-			<BriefInformation/>
-			<DetailedInformation/>
+			<BriefInformation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расширение 1С с HTTP‑эндпоинтом Prometheus /metrics и фасадом для работы с метриками.</v8:content>
+				</v8:item>
+			</BriefInformation>
+			<DetailedInformation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расширение добавляет HTTP‑сервис /metrics и общие модули (PrometheusFacade, PrometheusMetrics, PrometheusRegistry, PrometheusTextFormat, PrometheusVec и др.) для регистрации метрик, операций над ними и выдачи данных в формате Prometheus Text Format.</v8:content>
+				</v8:item>
+			</DetailedInformation>
 			<Copyright>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
