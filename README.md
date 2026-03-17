@@ -1,5 +1,9 @@
 # prometheus-e1c
 
+[![OpenYellow](https://openyellow.openintegrations.dev/data/badges/1181941167.svg)](https://openyellow.org/grid?filter=top&repo=1181941167)
+[![telegram chat](https://img.shields.io/badge/telegram-chat-green.svg)](https://t.me/wonder_yellow)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/yellow-hammer/prometheus-e1c)
+
 Расширение для 1С:Предприятие 8: экспорт метрик в формате Prometheus для сбора и мониторинга (Prometheus, Grafana и др.).
 
 Предоставляет HTTP-сервис с эндпоинтом **GET /metrics** в формате
