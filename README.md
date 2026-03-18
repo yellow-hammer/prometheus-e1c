@@ -11,6 +11,8 @@
 реестра совместима с библиотекой [prometheus](https://github.com/yellow-hammer/prometheus) и сервисом
 [prometheus-metrics](https://github.com/yellow-hammer/prometheus-metrics).
 
+![Скриншот эндпоинта /metrics](doc/screenshot-hs.jpg)
+
 ## Установка и подключение
 
 1. Добавьте расширение `prometheus-client` в информационную базу.
