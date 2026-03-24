@@ -5,6 +5,15 @@
 Формат основан на [Keep a Changelog](https://keepachangelog.com/ru/1.0.0/),
 и этот проект придерживается [Semantic Versioning](https://semver.org/lang/ru/).
 
+## [1.0.3] - 2026-03-24
+
+### Изменено
+
+- Изменён режим совместимости основной конфигурации на Version8_3_27
+- Изменён режим совместимости расширений на Version8_3_20
+- Удалены пустые модули ManagedApplicationModule и SessionModule в расширении prometheus_client
+- Удалён DefaultLanguage в расширении prometheus_client и prometheus_project_example
+
 ## [1.0.2] - 2026-03-17
 
 ### Добавлено
