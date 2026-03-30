@@ -1,6 +1,6 @@
 ﻿// Фасад: дефолтный реестр и фабрики метрик с автоматической регистрацией.
 // Ядро - PrometheusRegistry, PrometheusMetrics, PrometheusVec (без HTTP).
-// Реестр по умолчанию: PrometheusRegistryStorage.ПолучитьРеестр() (e1c: справочник PrometheusХранилище).
+// Реестр по умолчанию: PrometheusRegistryStorage.ПолучитьРеестр() (e1c: РС PrometheusДанныеРеестра).
 // Передавайте в СобратьМетрики при необходимости.
 
 Функция РеестрПоУмолчанию() Экспорт

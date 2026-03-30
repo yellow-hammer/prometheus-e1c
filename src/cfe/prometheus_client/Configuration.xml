@@ -93,7 +93,7 @@
 			<CommonModule>PrometheusFacade</CommonModule>
 			<CommonModule>PrometheusRegistryStorage</CommonModule>
 			<HTTPService>PrometheusMetricsEndpoint</HTTPService>
-			<Catalog>PrometheusХранилище</Catalog>
+			<InformationRegister>PrometheusДанныеРеестра</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

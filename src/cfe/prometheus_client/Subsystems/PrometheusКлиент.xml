@@ -25,7 +25,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.PrometheusОсновнаяРоль</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">HTTPService.PrometheusMetricsEndpoint</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PrometheusRegistryStorage</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.PrometheusХранилище</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.PrometheusДанныеРеестра</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
