@@ -17,6 +17,8 @@
 			<Picture/>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.PrometheusПроект_ТестМетрик</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.PrometheusПроект_ТестМетрикХелпер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.PrometheusПроект_ОсновнаяРоль</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
