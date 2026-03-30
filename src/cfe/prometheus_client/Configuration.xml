@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.PrometheusОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>Ivan Karlo</Vendor>
-			<Version>1.0.3</Version>
+			<Version>1.0.4</Version>
 			<BriefInformation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
